@@ -6,6 +6,7 @@
 :: Works for large videos (splits the video, reverses each chunk separately, joins them back together):
 ::
 
+@echo off
 setlocal ENABLEEXTENSIONS
 
 set logLevel=info
